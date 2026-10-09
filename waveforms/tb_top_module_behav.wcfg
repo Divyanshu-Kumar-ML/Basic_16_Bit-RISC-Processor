@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_top_module_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_top_module" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="346.194 ns"></ZoomEndTime>
+      <Cursor1Time time="70.723 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="186"></NameColumnWidth>
+      <ValueColumnWidth column_width="134"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="47" />
+   <wvobject fp_name="/tb_top_module/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_module/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_module/sw" type="array">
+      <obj_property name="ElementShortName">sw[2:0]</obj_property>
+      <obj_property name="ObjectShortName">sw[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_module/led" type="array">
+      <obj_property name="ElementShortName">led[7:0]</obj_property>
+      <obj_property name="ObjectShortName">led[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_module/flag_Z" type="logic">
+      <obj_property name="ElementShortName">flag_Z</obj_property>
+      <obj_property name="ObjectShortName">flag_Z</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_module/flag_G" type="logic">
+      <obj_property name="ElementShortName">flag_G</obj_property>
+      <obj_property name="ObjectShortName">flag_G</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_module/flag_L" type="logic">
+      <obj_property name="ElementShortName">flag_L</obj_property>
+      <obj_property name="ObjectShortName">flag_L</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_module/uut/fsm_unit/halt" type="logic">
+      <obj_property name="ElementShortName">halt</obj_property>
+      <obj_property name="ObjectShortName">halt</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_module/uut/fsm_unit/state" type="array">
+      <obj_property name="ElementShortName">state[2:0]</obj_property>
+      <obj_property name="ObjectShortName">state[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_module/uut/pc_unit/halt" type="logic">
+      <obj_property name="ElementShortName">halt</obj_property>
+      <obj_property name="ObjectShortName">halt</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_module/uut/pc_unit/pc_en" type="logic">
+      <obj_property name="ElementShortName">pc_en</obj_property>
+      <obj_property name="ObjectShortName">pc_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_module/uut/pc_unit/pc" type="array">
+      <obj_property name="ElementShortName">pc[7:0]</obj_property>
+      <obj_property name="ObjectShortName">pc[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_module/uut/instruction_mem_unit/address" type="array">
+      <obj_property name="ElementShortName">address[7:0]</obj_property>
+      <obj_property name="ObjectShortName">address[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_module/uut/instruction_mem_unit/instruction" type="array">
+      <obj_property name="ElementShortName">instruction[15:0]</obj_property>
+      <obj_property name="ObjectShortName">instruction[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_module/uut/ir_unit/instruction_in" type="array">
+      <obj_property name="ElementShortName">instruction_in[15:0]</obj_property>
+      <obj_property name="ObjectShortName">instruction_in[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_module/uut/ir_unit/instruction_out" type="array">
+      <obj_property name="ElementShortName">instruction_out[15:0]</obj_property>
+      <obj_property name="ObjectShortName">instruction_out[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_module/uut/control_unit_unit/opcode" type="array">
+      <obj_property name="ElementShortName">opcode[3:0]</obj_property>
+      <obj_property name="ObjectShortName">opcode[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_module/uut/control_unit_unit/RegWrite" type="logic">
+      <obj_property name="ElementShortName">RegWrite</obj_property>
+      <obj_property name="ObjectShortName">RegWrite</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_module/uut/control_unit_unit/MemRead" type="logic">
+      <obj_property name="ElementShortName">MemRead</obj_property>
+      <obj_property name="ObjectShortName">MemRead</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_module/uut/control_unit_unit/MemWrite" type="logic">
+      <obj_property name="ElementShortName">MemWrite</obj_property>
+      <obj_property name="ObjectShortName">MemWrite</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_module/uut/control_unit_unit/ALUSrc" type="logic">
+      <obj_property name="ElementShortName">ALUSrc</obj_property>
+      <obj_property name="ObjectShortName">ALUSrc</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_module/uut/control_unit_unit/ALUOp" type="array">
+      <obj_property name="ElementShortName">ALUOp[1:0]</obj_property>
+      <obj_property name="ObjectShortName">ALUOp[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_module/uut/control_unit_unit/WBSel" type="array">
+      <obj_property name="ElementShortName">WBSel[1:0]</obj_property>
+      <obj_property name="ObjectShortName">WBSel[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_module/uut/control_unit_unit/MulEn" type="logic">
+      <obj_property name="ElementShortName">MulEn</obj_property>
+      <obj_property name="ObjectShortName">MulEn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_module/uut/control_unit_unit/HaltEn" type="logic">
+      <obj_property name="ElementShortName">HaltEn</obj_property>
+      <obj_property name="ObjectShortName">HaltEn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_module/uut/reg_file_unit/rs1" type="array">
+      <obj_property name="ElementShortName">rs1[2:0]</obj_property>
+      <obj_property name="ObjectShortName">rs1[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_module/uut/reg_file_unit/rs2" type="array">
+      <obj_property name="ElementShortName">rs2[2:0]</obj_property>
+      <obj_property name="ObjectShortName">rs2[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_module/uut/reg_file_unit/rd" type="array">
+      <obj_property name="ElementShortName">rd[2:0]</obj_property>
+      <obj_property name="ObjectShortName">rd[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_module/uut/reg_file_unit/write_data" type="array">
+      <obj_property name="ElementShortName">write_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">write_data[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_module/uut/reg_file_unit/reg_write" type="logic">
+      <obj_property name="ElementShortName">reg_write</obj_property>
+      <obj_property name="ObjectShortName">reg_write</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_module/uut/reg_file_unit/read_data1" type="array">
+      <obj_property name="ElementShortName">read_data1[7:0]</obj_property>
+      <obj_property name="ObjectShortName">read_data1[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_module/uut/reg_file_unit/read_data2" type="array">
+      <obj_property name="ElementShortName">read_data2[7:0]</obj_property>
+      <obj_property name="ObjectShortName">read_data2[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_module/uut/alu_unit/A" type="array">
+      <obj_property name="ElementShortName">A[7:0]</obj_property>
+      <obj_property name="ObjectShortName">A[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_module/uut/alu_unit/B" type="array">
+      <obj_property name="ElementShortName">B[7:0]</obj_property>
+      <obj_property name="ObjectShortName">B[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_module/uut/alu_unit/ALUOp" type="array">
+      <obj_property name="ElementShortName">ALUOp[1:0]</obj_property>
+      <obj_property name="ObjectShortName">ALUOp[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_module/uut/alu_unit/result" type="array">
+      <obj_property name="ElementShortName">result[7:0]</obj_property>
+      <obj_property name="ObjectShortName">result[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_module/uut/alu_unit/Z" type="logic">
+      <obj_property name="ElementShortName">Z</obj_property>
+      <obj_property name="ObjectShortName">Z</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_module/uut/alu_unit/G" type="logic">
+      <obj_property name="ElementShortName">G</obj_property>
+      <obj_property name="ObjectShortName">G</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_module/uut/alu_unit/L" type="logic">
+      <obj_property name="ElementShortName">L</obj_property>
+      <obj_property name="ObjectShortName">L</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_module/uut/multiplier_unit/A" type="array">
+      <obj_property name="ElementShortName">A[7:0]</obj_property>
+      <obj_property name="ObjectShortName">A[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_module/uut/multiplier_unit/B" type="array">
+      <obj_property name="ElementShortName">B[7:0]</obj_property>
+      <obj_property name="ObjectShortName">B[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_module/uut/multiplier_unit/product" type="array">
+      <obj_property name="ElementShortName">product[7:0]</obj_property>
+      <obj_property name="ObjectShortName">product[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_module/uut/data_memory_unit/address" type="array">
+      <obj_property name="ElementShortName">address[8:0]</obj_property>
+      <obj_property name="ObjectShortName">address[8:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_module/uut/data_memory_unit/data_in" type="array">
+      <obj_property name="ElementShortName">data_in[7:0]</obj_property>
+      <obj_property name="ObjectShortName">data_in[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_module/uut/data_memory_unit/MemRead" type="logic">
+      <obj_property name="ElementShortName">MemRead</obj_property>
+      <obj_property name="ObjectShortName">MemRead</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_module/uut/data_memory_unit/MemWrite" type="logic">
+      <obj_property name="ElementShortName">MemWrite</obj_property>
+      <obj_property name="ObjectShortName">MemWrite</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_module/uut/data_memory_unit/data_out" type="array">
+      <obj_property name="ElementShortName">data_out[7:0]</obj_property>
+      <obj_property name="ObjectShortName">data_out[7:0]</obj_property>
+   </wvobject>
+</wave_config>
