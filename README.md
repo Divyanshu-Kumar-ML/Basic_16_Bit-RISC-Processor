@@ -99,6 +99,6 @@ Initial data memory: `MEM[10] = 6`, `MEM[11] = 4`
 
 ## Author
 
-**Divyanshu** · Roll No: 23EC8032
-Department of Electronics & Communication Engineering
-[GitHub](https://github.com/your-username)
+**Divyanshu** · Roll No: 23EC8032  
+  Dept : ECE
+[GitHub](https://github.com/Divyanshu-Kumar-ML)
