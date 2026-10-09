@@ -81,15 +81,6 @@ Initial data memory: `MEM[10] = 6`, `MEM[11] = 4`
 | 6 | `CMP R3, R4` | `0100_000_011_100_000` | G=1, Z=0, L=0 |
 | 7 | `HALT` | `1111_000_000_000_000` | PC frozen |
 
-## Repository Structure
-
-```
-├── src/            # Verilog design files
-├── sim/            # Testbenches
-├── constraints/    # Boolean Board .xdc file
-├── docs/           # Block diagram, waveforms, board photos
-└── README.md
-```
 
 ## Simulation
 
@@ -105,16 +96,9 @@ Initial data memory: `MEM[10] = 6`, `MEM[11] = 4`
 2. Run **Synthesis → Implementation → Generate Bitstream**, then program the board.
 3. Reset, let the program reach HALT, and use `SW[2:0]` to view each register on the LEDs. `flag_G` should be ON; `flag_Z` and `flag_L` OFF.
 
-| Resource | Used |
-|---|---|
-| LUTs | _fill in_ |
-| FFs | _fill in_ |
-| BRAM / DSP | _fill in_ |
-
-<!-- ![FPGA Demo](docs/demo.jpg) -->
 
 ## Author
 
-**Your Name** · Roll No: _your roll number_
-Department of Electronics & Communication Engineering
-[GitHub](https://github.com/your-username)
+**Divyanshu** · Roll No: 23EC8032  
+  Dept : ECE
+[GitHub](https://github.com/Divyanshu-Kumar-ML)
